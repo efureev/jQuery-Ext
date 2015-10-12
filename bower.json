@@ -12,11 +12,7 @@
     "jquery-plugin"
   ],
   "ignore": [
-    "**/.*",
-    "build",
-    "test",
     "*.md",
-    "Gruntfile.js",
     "package.json",
     "node_modules",
     "components"
