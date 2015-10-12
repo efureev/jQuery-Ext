@@ -1,0 +1,28 @@
+{
+  "name": "jQuery-Ext",
+  "description": "extension for $",
+  "version": "0.0.1",
+  "homepage": "https://github.com/efureev/jQuery-Ext",
+  "author": {
+    "name": "Eugene Fureev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/efureev/jQuery-Ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efureev/jQuery-Ext/issues"
+  },
+  "main": [
+    "dist/jExt.min.js"
+  ],
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-uglify": ">=0.9.x"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "jquery-plugin"
+  ]
+}

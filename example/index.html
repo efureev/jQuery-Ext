@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../components/jquery/dist/jquery.min.js"></script>
+	<script src="../dist/jExt.min.js"></script>
+</head>
+<body>
+<div class="hidden" id="test" data-node-id="12">Look up console</div>
+<script>
+	$(function () {
+
+		var node = $('#test');
+
+		console.log(node.getAttributes());
+		node
+			.clearAttributes()
+			.setAttributes({
+					"class" : "new-class",
+					"data-name" : "name",
+					id : 'test-new'
+				});
+		console.log(node.getAttributes());
+	});
+</script>
+</body>
+</html>

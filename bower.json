@@ -1,0 +1,28 @@
+{
+  "name": "jQuery-Ext",
+  "description": "extension for $",
+  "version": "0.0.1",
+  "homepage": "https://github.com/efureev/jQuery-Ext",
+  "main": [
+    "dist/jExt.min.js"
+  ],
+  "keywords": [
+    "javascript",
+    "jquery",
+    "jquery-plugin"
+  ],
+  "ignore": [
+    "**/.*",
+    "build",
+    "test",
+    "*.md",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "devDependencies": {}
+}
